@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon: #00FF41;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased font-sans overflow-x-hidden;
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-position: center center;
+  }
+  
+  ::selection {
+    @apply bg-neon text-black;
+  }
+}
+
