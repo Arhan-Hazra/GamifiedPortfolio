@@ -1,0 +1,26 @@
+newmtl blinn10SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -mm_0.110497_1_hungary001.jpg
+bump  -bm 0.1 hungary001b.jpg
+Ni 1.00
+newmtl lambert16SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -mm_0_0.895028_germany0WHITE.jpg
+bump  -bm 0.04 germany010b.jpg
+Ni 1.00
+newmtl templeRender_templeRender_blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -mm_0_0.774086_oldgold_copy.jpg
+bump  -bm 0.01 -mm_0_0.403448_oldgoldespecular.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks -mm_0_0.403448_oldgoldespecular.jpg
